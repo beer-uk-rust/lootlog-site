@@ -69,3 +69,19 @@ footer p{margin:10px 0 0}
   .long{display:none}.short{display:inline}
   .brand{font-size:18px}
 }
+
+/* help form */
+form.ask{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin:24px 0}
+form.ask label{display:block;font-weight:600;font-size:15px;margin:14px 0 6px}
+form.ask label:first-of-type{margin-top:0}
+form.ask .hint{font-weight:400;color:var(--muted);font-size:13px}
+form.ask input,form.ask select,form.ask textarea{width:100%;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:10px 12px;font:inherit;font-size:16px}
+form.ask textarea{min-height:140px;resize:vertical}
+form.ask input:focus,form.ask select:focus,form.ask textarea:focus{outline:2px solid var(--accent);border-color:transparent}
+form.ask button{margin-top:18px;background:var(--accent);color:#1a1300;border:0;border-radius:8px;padding:12px 22px;font-family:inherit;font-weight:700;font-size:16px;line-height:1;cursor:pointer}
+form.ask button:hover{filter:brightness(1.08)}
+.hidden{position:absolute;left:-9999px}
+.qa{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 22px;margin:14px 0}
+.qa .q{font-weight:700;margin:0 0 4px}
+.qa .who{font-size:13px;color:var(--muted);margin:0 0 10px}
+.qa .a{margin:0}
