@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Star Trek: Outposts Unknown — beginner's tips and what I've learned | Loot Log</title>
+<meta name="description" content="Star Trek: Outposts Unknown beginner's tips from a new player: what each Ops level unlocks, Polyalloy and the Alloy Refinery, the Requisitions Platform, crew promotion, storms, and the key controls.">
+<link rel="canonical" href="https://lootlog.co.uk/outposts-unknown/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+<meta property="og:title" content="Star Trek: Outposts Unknown — first log">
+<meta property="og:description" content="What each Ops level unlocks, why Polyalloy matters, and the controls you need to know.">
+<meta property="og:url" content="https://lootlog.co.uk/outposts-unknown/">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28"><span>Loot<b>Log</b></span></a>
+  <nav><a href="/">Home</a><a href="/outposts-unknown/" aria-current="page"><span class="long">Outposts Unknown</span><span class="short">Outposts</span></a><a href="https://beer-uk.co.uk">Rust</a></nav>
+</div></header>
+
+<main class="wrap">
+<article>
+  <span class="tag">Outposts Unknown</span>
+  <h1>Star Trek: Outposts Unknown — first log: what I've learned so far</h1>
+  <p class="lede">One abandoned save, one fresh start, and a lot of "why won't this build?" Here's what I wish I'd known on day one.</p>
+  <p class="byline">27 October 2026 · Everything below was checked in my own game unless it says otherwise.</p>
+
+  <div class="toc"><strong>In this log</strong>
+    <ol>
+      <li><a href="#first-save">Why I scrapped my first save</a></li>
+      <li><a href="#levels">What each Ops level unlocks</a></li>
+      <li><a href="#polyalloy">Polyalloy: the thing everything needs</a></li>
+      <li><a href="#lab">Getting Tech Data from the lab</a></li>
+      <li><a href="#requisitions">The Requisitions Platform</a></li>
+      <li><a href="#crew">Crew: promotion, utility crew and quarters</a></li>
+      <li><a href="#networks">Power, water and computer networks</a></li>
+      <li><a href="#storms">Storms and threats</a></li>
+      <li><a href="#tips">Building and exploring tips</a></li>
+      <li><a href="#controls">Controls worth knowing</a></li>
+      <li><a href="#now">Where my outpost is now</a></li>
+    </ol>
+  </div>
+
+  <h2 id="first-save">Why I scrapped my first save</h2>
+  <p>My first outpost got to around Day 50 and then hit a wall all at once: crew quarters were full, the Advanced Laboratory had no water and no samples, haulers couldn't keep up, and the ship's Mess Hall had a capacity of zero. Everything was waiting on something else.</p>
+  <p>So I started a new voyage on Easy, this time planning around those bottlenecks from the start.</p>
+  <div class="note"><strong>Lesson:</strong> before you build a new building, check you have the quarters, crew, power and supplies to actually run it. An unstaffed building is just an expensive decoration.</div>
+
+  <h2 id="levels">What each Ops level unlocks</h2>
+  <p>You level up the Operations Center by earning Outpost Proficiency: 30 for Level 3, 75 for Level 4, 200 for Level 5. When it's ready, the top bar says <strong>READY TO UPGRADE</strong>. Click it, then <strong>Start Upgrade</strong>.</p>
+  <div class="tablewrap"><table>
+    <tr><th>Level</th><th>New buildings</th></tr>
+    <tr><td>3</td><td>Basic Equipment Crafting Facility, Scientific Sample Collector (must sit on a Strange Anomaly), Power Cell</td></tr>
+    <tr><td>4</td><td>Cargo Transport Bay, Passenger Transport Bay, Crystal Collector, Crystals Extractor, Medical Facility, Planetary Habitat, Crew Mess</td></tr>
+    <tr><td>5</td><td>Advanced Laboratory</td></tr>
+    <tr><td>6</td><td>Planetary Sensor</td></tr>
+    <tr><td>7</td><td>Computer</td></tr>
+  </table></div>
+  <p>After an upgrade, any build tab with something new on it shows an <strong>orange corner flag</strong>. Open each one so you don't miss anything.</p>
+
+  <h3>Level 4 costs</h3>
+  <ul>
+    <li><strong>Crystal Collector:</strong> 6 Polyalloy + 1 Advanced Part</li>
+    <li><strong>Crystals Extractor:</strong> 8 Polyalloy + 1 Advanced Part. Needs power and compute, and must sit on a Crystal Deposit.</li>
+    <li><strong>Medical Facility:</strong> 6 Polyalloy + 1 Advanced Part</li>
+    <li><strong>Planetary Habitat:</strong> 6 Polyalloy. Needs power, water and compute.</li>
+    <li><strong>Crew Mess:</strong> 6 Polyalloy + 1 Advanced Part. Needs power and water.</li>
+  </ul>
+
+  <h2 id="polyalloy">Polyalloy: the thing everything needs</h2>
+  <p>Look at that list again: almost every Level 4 building needs Polyalloy. Get it flowing early.</p>
+  <ul>
+    <li><strong>Alloy Refinery:</strong> costs 10 metal + 1 Advanced Part, needs power and compute, and is staffed by Engineering crew. It turns <strong>4 metal into 1 Polyalloy</strong>. I staff mine on both day and night shifts.</li>
+    <li><strong>Metal Recovery Unit:</strong> 14 Polyalloy + 1 Advanced Part, needs power and compute, and must sit on a Metal Deposit.</li>
+  </ul>
+
+  <h2 id="lab">Getting Tech Data from the lab</h2>
+  <p>The Basic Laboratory's Material Research uses one Collected Sample Data per run and produces Tech Data. If it says <strong>Lacking Resources</strong>, you've run out of samples.</p>
+  <p>Samples come from investigating Exploration Points, or from a Scientific Sample Collector.</p>
+
+  <h2 id="requisitions">The Requisitions Platform</h2>
+  <ul>
+    <li>Click the platform <strong>building itself</strong> to open it.</li>
+    <li>Hover each requested item to see where it comes from. Skip orders that need things you can't make yet.</li>
+    <li>If an order stalls, find out why: recipe switched off, no crew, or no haulers. If you can't fix it quickly, <strong>Cancel</strong> it and pick another.</li>
+    <li>After approving a departure there's roughly a 30-second cooldown. Wait, check again, then take the next order.</li>
+  </ul>
+
+  <h2 id="crew">Crew: promotion, utility crew and quarters</h2>
+  <ul>
+    <li><strong>Promoting:</strong> click the crew member → Promote → confirm. They need a full XP bar and good morale. Ensign to Lieutenant JG costs 2 prestige; Lieutenant JG to Lieutenant costs 3.</li>
+    <li><strong>Utility crew</strong> are anyone not assigned to a building. They do the building and hauling. In Crew Overview → Tasks → Utility Crew, the arrow moves them between day and night shifts.</li>
+    <li><strong>Crew Quarters cap:</strong> the Ship view shows how many crew you can hold. That's what stopped my first save. Expand it through the Tech Tree.</li>
+    <li><strong>Resupply:</strong> when a crew member is energised down, order the next one straight away.</li>
+  </ul>
+
+  <h2 id="networks">Power, water and computer networks</h2>
+  <p>Wait until buildings are finished, then connect them at their green connection points. Build one continuous spine rather than lots of separate bits. Water pipes and computer cables work the same way.</p>
+
+  <h2 id="storms">Storms and threats</h2>
+  <ul>
+    <li><strong>Shelter:</strong> press <kbd>J</kbd> or the shelter icon at the bottom right. It's a toggle, so check whether it's already on before you press it.</li>
+    <li><strong>Threats</strong> (Rhizome Probe, Hunter Roots): click the alert, then <strong>Respond to Threat</strong>.</li>
+  </ul>
+
+  <h2 id="tips">Building and exploring tips</h2>
+  <ul>
+    <li><strong>Investigating:</strong> click the actual plant or rock → Investigate → assign crew → Start. Hover the inputs to see what it needs.</li>
+    <li><strong>Placing buildings:</strong> green means OK; yellow or red means blocked. <kbd>V</kbd> rotates.</li>
+    <li><strong>Exploration beacons</strong> (<kbd>Y</kbd>): place them wide apart so they don't overlap.</li>
+    <li><strong>Minimap:</strong> the magnifier and circle icons are exploration points. Click them to jump there.</li>
+    <li><strong>Decorations:</strong> benches add comfort and the Starfleet Insignia adds purpose, but only where crew actually work or walk.</li>
+    <li><strong>Food chain:</strong> Organics Collector → Biomass Synthesizer → Planetary Kitchen → Crew Mess / ship Mess Hall.</li>
+    <li><strong>Planet to ship:</strong> Cargo Landing Pad → Manage Shipment moves goods between the two.</li>
+  </ul>
+
+  <h2 id="controls">Controls worth knowing</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Key</th><th>What it does</th></tr>
+    <tr><td><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></td><td>Pan the camera (only while the game isn't paused)</td></tr>
+    <tr><td><kbd>Q</kbd> / <kbd>E</kbd></td><td>Rotate the camera</td></tr>
+    <tr><td><kbd>R</kbd> / <kbd>F</kbd></td><td>Tilt the camera</td></tr>
+    <tr><td>Scroll</td><td>Zoom</td></tr>
+    <tr><td><kbd>Y</kbd></td><td>Place an exploration beacon</td></tr>
+    <tr><td><kbd>V</kbd></td><td>Rotate the building you're placing</td></tr>
+    <tr><td><kbd>H</kbd></td><td>Centre on the Shuttle Pad</td></tr>
+    <tr><td><kbd>J</kbd></td><td>Toggle shelter</td></tr>
+    <tr><td>Right-click</td><td>Cancel the current tool</td></tr>
+    <tr><td><kbd>Esc</kbd></td><td>Close an open overview panel</td></tr>
+  </table></div>
+  <div class="note green"><strong>Stuck on the Ship screen?</strong> Click the <strong>Planet</strong> icon at the bottom left to get back to your outpost.</div>
+
+  <h2 id="now">Where my outpost is now</h2>
+  <p>Day 16 of the new voyage: Ops Level 4, 18 crew (ship quarters 18 of 20), morale around 59, and an Alloy Refinery running day and night.</p>
+  <p>Next up:</p>
+  <ul>
+    <li><strong>Investigate the Dead Roots</strong> (0 of 2). Each one needs 1 crystal and 2 seeds, so it's waiting on a Crystals Extractor.</li>
+    <li><strong>The crashed ship</strong> to the west needs a Command crew member and 2 Basic Phasers. Phasers stay locked at the Crafting Facility until the Basic Equipment Crafting Upgrade in the Tech Tree.</li>
+    <li>Then a Planetary Habitat, Crew Mess and Metal Recovery Unit, but only if quarters, staffing and morale can take it. I'm not making the same mistake twice.</li>
+  </ul>
+  <p>More logs to follow as the outpost grows. If you play Rust as well, come and find me on the <a href="https://beer-uk.co.uk">Beer-UK server</a> or the <a href="https://discord.gg/VJSMF6MfSX">Discord</a>.</p>
+</article>
+</main>
+
+<footer><div class="wrap">
+  <div class="links"><a href="/">Loot Log home</a><a href="https://beer-uk.co.uk">Beer-UK Rust server</a><a href="https://discord.gg/VJSMF6MfSX">Discord</a></div>
+  <p>Loot Log is an independent fan site. Star Trek and related marks are trademarks of CBS Studios Inc. Not affiliated with or endorsed by CBS Studios, Paramount or the game's developers or publishers.</p>
+</div></footer>
+</body>
+</html>
