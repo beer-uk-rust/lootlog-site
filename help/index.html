@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Help — having a problem with a game? Ask here | Loot Log</title>
+<meta name="description" content="Stuck in Star Trek: Outposts Unknown, Rust or another game? Ask your question on Loot Log and we'll post an answer within about 48 hours.">
+<link rel="canonical" href="https://lootlog.co.uk/help/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28"><span>Loot<b>Log</b></span></a>
+  <nav><a href="/">Home</a><a href="/outposts-unknown/"><span class="long">Outposts Unknown</span><span class="short">Outposts</span></a><a href="https://beer-uk.co.uk">Rust</a><a href="/help/" aria-current="page">Help</a></nav>
+</div></header>
+
+<main class="wrap">
+<article>
+  <h1>Having a problem? Having an issue?</h1>
+  <p class="lede">Put it here and let's see if we can help you.</p>
+  <p>Ask about any game we cover. We read every question and post answers on this page, usually within <strong>about 48 hours</strong>. Nothing goes up until we've answered it.</p>
+
+  <form class="ask" name="help" method="POST" action="/help/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="help">
+    <p class="hidden"><label>Leave this empty: <input name="bot-field"></label></p>
+
+    <label for="game">Which game?</label>
+    <select id="game" name="game" required>
+      <option value="Star Trek: Outposts Unknown">Star Trek: Outposts Unknown</option>
+      <option value="Rust">Rust</option>
+      <option value="Other">Something else</option>
+    </select>
+
+    <label for="question">Your problem or question</label>
+    <textarea id="question" name="question" required maxlength="2000" placeholder="What's going wrong? The more detail, the better."></textarea>
+
+    <label for="name">Name to show with your question <span class="hint">(optional, a nickname is fine)</span></label>
+    <input id="name" name="name" maxlength="40" autocomplete="nickname">
+
+    <button type="submit">Send my question</button>
+  </form>
+  <p class="byline">Please don't include personal details such as your email, phone number or address. We publish your question with the name you give, or as "Anonymous" if you leave it blank. Questions that are spam or abusive won't be published.</p>
+
+  <h2 id="answers">Answered questions</h2>
+  <p>No questions answered yet. Be the first to ask!</p>
+</article>
+</main>
+
+<footer><div class="wrap">
+  <div class="links"><a href="/">Loot Log home</a><a href="https://beer-uk.co.uk">Beer-UK Rust server</a><a href="https://discord.gg/VJSMF6MfSX">Discord</a><a href="https://trevjtodd.com">Trev J Todd music</a></div>
+  <p>Loot Log is an independent fan site. Game names and trademarks belong to their owners. Not affiliated with or endorsed by any publisher.</p>
+</div></footer>
+<script data-goatcounter="https://lootlog.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
