@@ -24,7 +24,18 @@
   <span class="tag">Outposts Unknown</span>
   <h1>Star Trek: Outposts Unknown — first log: what I've learned so far</h1>
   <p class="lede">One abandoned save, one fresh start, and a lot of "why won't this build?" Here's what I wish I'd known on day one.</p>
-  <p class="byline">27 October 2026, updated 1 November · Everything below was checked in my own game unless it says otherwise.</p>
+  <p class="byline">27 October 2026, updated 5 November · Everything below was checked in my own game unless it says otherwise.</p>
+
+  <div class="note green" id="day70"><strong>Update: Day 70. Level 7 done, and the chip wall is beaten.</strong> <strong>Ops Level 7 is finished.</strong> In the end the Duotronic Chips didn't come from a lucky resupply. They came from a <strong>High Tech Factory</strong>. Next stop is Level 8, which needs 750 Outpost Proficiency. Here's what I picked up on the way:
+<ul>
+<li><strong>The chip recipe.</strong> The High Tech Factory's <strong>Craft Duotronic Chips</strong> line takes two kinds of material, 2 of each, and makes 2 chips. It gets a boost from the Computer. Once it's going it fills up fast: when I checked, it was showing <strong>Max Inventory</strong> with chips waiting to be collected. So keep some utility crew free to carry them away.</li>
+<li><strong>Your ship's crew can go hungry without you noticing.</strong> I got "Mess hall has run out of food". On the ship, the Mess Hall has a <strong>Food Proteins Capacity</strong> and a <strong>Quality Meal Capacity</strong>, and mine were both set to 0, so no food was ever sent up. Press <strong>+</strong> on both and the game sends food up by itself (you can see it under Storage → Inbound).</li>
+<li><strong>The + on Utility Crew doesn't add anyone.</strong> My utility crew had dropped to 2 on days and 2 on nights. Pressing + just moved someone from the other shift. To get more haulers, take crew out of a building that isn't doing anything (see <a href="#crew">Crew</a>).</li>
+<li><strong>Don't staff the Advanced Laboratory until it has something to work with.</strong> Mine had 3 crew sitting there "Lacking Resources". More on that in <a href="#lab">the lab section</a>.</li>
+<li><strong>Check the game speed before you walk away.</strong> I'd left mine on fast-forward.</li>
+</ul>
+Next up: Level 8, and finding Exploration Points for Advanced Tech Points.
+</div>
 
   <div class="note green" id="day53"><strong>Update: Day 53. The Level 7 wall: Duotronic Chips.</strong> I reached the 500 Outpost Proficiency for <strong>Ops Level 7</strong> and started the upgrade, and it stopped dead at 0 of 20. It needs <strong>18 Polyalloy</strong> and <strong>2 Duotronic Chips</strong>, and I had no chips on the planet or the ship. Here's what I found:
 <ul>
@@ -35,7 +46,7 @@
 <li><strong>Nothing to switch off.</strong> The Operations Center has no on/off switch and no assigned staff. Only utility crew are used, to carry materials in. So get the 18 Polyalloy delivered now, and the build can start the moment the chips land.</li>
 <li><strong>Look for crew marked <em>Idle</em>.</strong> While I was waiting, several crew showed as Idle, still assigned to buildings with nothing to do, with 76 jobs in the queue. Work out why the building has stopped first (no inputs, or <a href="#storage">full storage</a>), then move spare hands to utility crew as in the <a href="#day50">Day 50 update</a>.</li>
 </ul>
-Next up: keep taking resupplies until the chips turn up, then finish Level 7.
+<strong>Solved:</strong> the chips came from a High Tech Factory in the end. See the <a href="#day70">Day 70 update</a>.
 </div>
 
   <div class="note" id="storage"><strong>Update, 1 November: turn off what you don't need.</strong> This one has been a big bottleneck for me. When a facility's storage fills up, it stops producing, and that holds up everything downstream of it.
@@ -110,6 +121,7 @@ That keeps storage free for the things that matter, and keeps your crew and haul
   <h2 id="lab">Getting Tech Data from the lab</h2>
   <p>The Basic Laboratory's Material Research uses one Collected Sample Data per run and produces Tech Data. If it says <strong>Lacking Resources</strong>, you've run out of samples.</p>
   <p>Samples come from investigating Exploration Points, or from a Scientific Sample Collector.</p>
+  <p><strong>What's the orange Tier 3 research point?</strong> It's the <strong>Advanced Tech Point</strong>, and nearly all of Tier 3 in the Tech Tree needs it. The <strong>Advanced Laboratory</strong> makes it from <strong>Advanced Data Samples</strong>, and those only come from <strong>Exploration Points</strong>. If you have none, the Advanced Lab just sits there saying "Lacking Resources". Switch it off and use those crew as haulers until you've found some Exploration Points.</p>
 
   <h2 id="requisitions">The Requisitions Platform</h2>
   <ul>
@@ -125,7 +137,10 @@ That keeps storage free for the things that matter, and keeps your crew and haul
     <li><strong>Utility crew</strong> are anyone not assigned to a building. They do the building and hauling. In Crew Overview → Tasks → Utility Crew, the arrow moves them between day and night shifts.</li>
     <li><strong>Crew Quarters cap:</strong> the Ship view shows how many crew you can hold. That's what stopped my first save. Expand it through the Tech Tree.</li>
     <li><strong>Resupply</strong> (first icon on the bottom-centre bar): when a crew member is energised down, order the next one straight away. What's on offer each time is random.</li>
+    <li><strong>Need more utility crew?</strong> The <strong>+</strong> next to Utility Crew (Crew Overview → Tasks) only moves someone from the other shift. To free someone up, open a building, click the crew member's portrait under Crew Assignment, and pick the empty slot (the first icon in the list). They go straight to utility crew. Good places to take them from: buildings that are switched off, "Lacking Resources" or at Max Inventory.</li>
   </ul>
+
+  <div class="note green"><strong>Ship's Mess Hall empty?</strong> Go to the Ship, click <strong>Mess Hall</strong>, and check <strong>Food Proteins Capacity</strong> and <strong>Quality Meal Capacity</strong>. If they're 0, the ship never gets any food. Press <strong>+</strong> and food is sent up on its own.</div>
 
   <h2 id="networks">Power, water and computer networks</h2>
   <p>Wait until buildings are finished, then connect them at their green connection points. Build one continuous spine rather than lots of separate bits. Water pipes and computer cables work the same way.</p>
@@ -161,8 +176,9 @@ That keeps storage free for the things that matter, and keeps your crew and haul
     <tr><td>Right-click</td><td>Cancel the current tool</td></tr>
     <tr><td><kbd>Esc</kbd></td><td>Close an open overview panel</td></tr>
   </table></div>
-  <div class="note green"><strong>Stuck on the Ship screen?</strong> Click the <strong>Planet</strong> icon at the bottom left to get back to your outpost.</div>
+  <div class="note green"><strong>Stuck on the Ship screen?</strong> Click the <strong>Planet</strong> icon at the bottom left to get back to your outpost. The same icon also closes the Tech Tree and Crew Overview.</div>
   <div class="note green"><strong>Accidentally in Photo Mode?</strong> The Starfleet logo at the bottom left is <strong>Photo Mode</strong>, not a menu. Press <kbd>Esc</kbd> to get your screen back.</div>
+  <div class="note green"><strong>Game running too fast?</strong> The speed buttons are at the top, just left of the day dial: pause, normal, fast and fastest. Worth checking before you leave the game running.</div>
 
   <h2 id="now">Day 16 snapshot</h2>
   <p>Day 16 of the new voyage: Ops Level 4, 18 crew (ship quarters 18 of 20), morale around 59, and an Alloy Refinery running day and night.</p>
